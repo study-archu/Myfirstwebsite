@@ -1,0 +1,74 @@
+body { 
+font-family: 'Arial', sans-serif; 
+font-size: 16px; 
+color: #333; 
+} 
+h1 { 
+font-size: 32px; 
+color: #0056b3; 
+} 
+h2 { 
+font-size: 24px; 
+color: #007bff; 
+}
+
+h1, h2 { 
+margin: 20px 0; 
+} 
+.container { 
+padding: 15px; 
+border: 1px solid #ccc; 
+} 
+* { 
+margin: 0; 
+padding: 0; 
+} 
+
+
+
+p { 
+color: gray; 
+line-height: 1.5;
+}
+
+
+.highlight { 
+background-color: yellow; 
+font-weight: bold; 
+} 
+
+
+#main-header { 
+color: green; 
+text-align: center; 
+} 
+
+
+input[type="text"] { 
+border: 2px solid black; 
+padding: 5px; 
+} 
+
+a:hover { 
+color: red; 
+text-decoration: underline; 
+}
+
+
+.sidebar { 
+float: left; 
+width: 25%; 
+background-color: #f1f1f1; 
+padding: 15px; 
+} 
+.content { 
+float: right; 
+width: 70%; 
+padding: 15px; 
+} 
+.clearfix::after { 
+content: ""; 
+clear: both; 
+display: table; 
+}
+
